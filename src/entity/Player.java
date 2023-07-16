@@ -13,18 +13,18 @@ public class Player extends Entity {
 	GamePanel gp;
 	KeyHandler keyH;
 	// Image player
-	File p1 = new File("scr/res/player/u1.png");
-	File p2 = new File("scr/res/player/u2.png");
-	File p3 = new File("scr/res/player/u3.png");
-	File p4 = new File("scr/res/player/d1.png");
-	File p5 = new File("scr/res/player/d2.png");
-	File p6 = new File("scr/res/player/d3.png");
-	File p7 = new File("scr/res/player/l1.png");
-	File p8 = new File("scr/res/player/l2.png");
-	File p9 = new File("scr/res/player/l3.png");
-	File p10 = new File("scr/res/player/r1.png");
-	File p11 = new File("scr/res/player/r2.png");
-	File p12 = new File("scr/res/player/r3.png");
+	File p1 = new File("src/res/player/u1.png");
+	File p2 = new File("src/res/player/u2.png");
+	File p3 = new File("src/res/player/u3.png");
+	File p4 = new File("src/res/player/d1.png");
+	File p5 = new File("src/res/player/d2.png");
+	File p6 = new File("src/res/player/d3.png");
+	File p7 = new File("src/res/player/l1.png");
+	File p8 = new File("src/res/player/l2.png");
+	File p9 = new File("src/res/player/l3.png");
+	File p10 = new File("src/res/player/r1.png");
+	File p11 = new File("src/res/player/r2.png");
+	File p12 = new File("src/res/player/r3.png");
 
 	public Player(GamePanel gp, KeyHandler keyH) throws IOException {
 		this.gp = gp;
